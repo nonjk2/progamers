@@ -1,4 +1,4 @@
-const nums = [1,2,7,6,4] //127 126 124 176 174 164 276 274 764 
+const nums = [1,2,7,6,4]
 function solution() {
     const isPrime = (n) => {
         for (let i = 2; i <= Math.sqrt(n); i++) {
